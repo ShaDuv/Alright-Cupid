@@ -4,11 +4,14 @@ import './styles.css'
 
 function NewsFeed (){
   return(
-    <div>
-      <form action="/action_page.php">
-        <input type="text" name="search-news"/>
-        <input type="submit" value="Submit"/>
+    <div className="newsfeed">
+      <div className="feed-search">
+        <form action="/action_page.php">
+          <input type="text" name="search-news"/>
+          <input type="submit" value="Submit"/>
         </form>
+      </div>
+      <br/>
       <NewsFeedItem/>
       <NewsFeedItem/>
       <NewsFeedItem/>

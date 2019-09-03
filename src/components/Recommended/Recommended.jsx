@@ -4,7 +4,7 @@ import './styles.css'
 
 function Recommended(){
   return(
-    <div>
+    <div className="recommended">
       <h2>Who's Hot Now?</h2>
       <ProfileBadge/>
       <ProfileBadge/>

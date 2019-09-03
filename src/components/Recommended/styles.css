@@ -1,0 +1,13 @@
+.recommended{
+  display: inline-block;
+}
+
+.recommended h2{
+  vertical-align: bottom;
+  display: inline;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+.recommended p{
+  font-size: 0.75rem;
+}

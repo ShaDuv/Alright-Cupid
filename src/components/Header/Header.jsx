@@ -3,7 +3,7 @@ import './styles.css'
 
 function Header(){
   return(
-    <div>
+    <div className="header">
       <h1>AlrightCupid</h1>
       <nav>
       <a href="#">Home</a>

@@ -1,0 +1,20 @@
+.header form{
+  display: inline;
+  float: right;
+}
+
+.header a{
+  margin-right: 1rem;
+  vertical-align: sub;
+}
+
+.header{
+  margin-bottom: 1rem;
+}
+
+nav {
+  padding-left: 10px;
+  height: 2rem;
+  background-color: WhiteSmoke;
+
+}

@@ -1,0 +1,9 @@
+.newsfeed{
+  display: inline-block;
+}
+
+
+.feed-search{
+  display: block;
+  margin-bottom:2rem;
+}

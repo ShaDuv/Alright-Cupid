@@ -3,7 +3,7 @@ import './styles.css'
 
 function NewsFeedItem (){
   return(
-    <div>
+    <div className="newsfeeditem">
       <img src="http://lorempixel.com/100/100/"/>
       <h3>Lorem Ipsum</h3>
       <p>Blah blah blah blah blah blah blah cats blah blah blah</p>
