@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App";
+import App from "./App";
 import { AppContainer } from 'react-hot-loader';
+import './index.css';
 
 console.log("Working");
 
@@ -19,7 +20,7 @@ const render = (Component) => {
 render(App);
 
 if (module.hot) {
-  module.hot.accept('./components/App', () => {
+  module.hot.accept('./App', () => {
     render(App)
   });
 }
